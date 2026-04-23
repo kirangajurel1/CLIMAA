@@ -65,6 +65,7 @@ src/
 ├── App.jsx
 └── main.jsx
 ```
+
 ⚙️ Getting Started
 1. Clone the repo
 git clone https://github.com/your-username/CLIMAA.git
@@ -75,27 +76,24 @@ npm install
 npm run dev
 🔧 Environment Setup
 
-Create a .env file in the root directory:
+Create a .env file:
 
 VITE_API_KEY=your_api_key_here
-
-```🤝 Contributing```
-
+##🤝 Contributing
 Fork the project
 Create a new branch
 git checkout -b feature-name
-Make your changes
 Commit changes
 git commit -m "Add feature"
 Push branch
 git push origin feature-name
-Open a Pull Request on GitHub
+Open a Pull Request
 📝 License
 
 This project is licensed under the MIT License.
 
 🙌 Author
 
-Built with ❤️ by a developer learning and exploring the React ecosystem.
+Built with ❤️ by a developer learning React ecosystem.
 
-<p align="center"> <a href="#top">⬆️ Back to Top</a> </p>
+<p align="center"> <a href="#top">⬆️ Back to Top</a> </p> ```
