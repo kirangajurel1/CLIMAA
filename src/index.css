@@ -1,0 +1,65 @@
+@import "tailwindcss";
+
+@theme {
+  --background-image-radial-cosmic: radial-gradient(
+    circle at 20% 20%,
+    #1e1b4b 0%,
+    #121d36 35%,
+    #050d30 70%,
+    #2e1065 100%
+  );
+
+  --background-image-radial-cosmic-dark: radial-gradient(
+  circle at 20% 20%,
+  #0d0a2a 0%,     /* darker deep purple-blue */
+  #090c20 35%,    /* deep navy */
+  #030616 70%,    /* almost black navy */
+  #1a083f 100%    /* dark cosmic purple */
+);
+
+  /* Custom Breakpoint
+  --breakpoint-tablet: 900px; */
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-hide {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;     /* Firefox */
+}
+
+.gradient-center {
+  background-image: linear-gradient(to right, transparent 0%, #6366F1 50%, transparent 100%);
+}
+ 
+
+.glass-card {
+    background: rgba(255, 255, 255, 0.03);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.4);
+}
+
+.aqi-gauge-cyan {
+    background: conic-gradient(from 180deg at 50% 50%, #22d3ee 0deg, #fbbf24 160deg, #f97316 240deg, transparent 300deg);
+    mask: radial-gradient(transparent 65%, black 66%);
+    -webkit-mask: radial-gradient(transparent 65%, black 66%);
+}
+
+
+
+ 
