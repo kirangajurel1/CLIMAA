@@ -93,8 +93,8 @@ VITE_API_KEY=your_api_key_here
 
 ## 🤝 Contributing
 
-Fork the project
-Create a new branch
+. Fork the project
+. Create a new branch
 ```
 git checkout -b feature-name
 ```
