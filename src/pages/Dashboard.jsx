@@ -55,8 +55,8 @@ function Dashboard() {
       {errors.current && <p className="text-red-400 mb-4">{getUserErrorMessage(errors.current)}</p>}
       
       {/* Main Info */}
-      <div className="text-center space-y-1 -ml-15">
-        <h1 className="text-4xl sm:text-6xl md:text-7xl lg:text-[85px] text-[#E2E8F0] font-bold mt-15 mr-5">
+      <div className="text-center space-y-1 md:-ml-15">
+        <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-[85px] text-[#E2E8F0] font-bold mt-15 mr-5">
           {name}, {sys.country}
         </h1>
 
