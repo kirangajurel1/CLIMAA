@@ -73,34 +73,29 @@ cd CLIMAA
 npm install
 3. Run project
 npm run dev
-
 🔧 Environment Setup
 
-Create a .env file:
+Create a .env file in the root directory:
 
 VITE_API_KEY=your_api_key_here
 
-🤝 Contributing
+```🤝 Contributing```
+
 Fork the project
-
-Create a branch
-
+Create a new branch
 git checkout -b feature-name
-
+Make your changes
 Commit changes
-
 git commit -m "Add feature"
-
 Push branch
-
 git push origin feature-name
-Open a Pull Request
+Open a Pull Request on GitHub
 📝 License
 
 This project is licensed under the MIT License.
 
 🙌 Author
 
-Built with ❤️ by a developer learning and exploring React ecosystem.
+Built with ❤️ by a developer learning and exploring the React ecosystem.
 
 <p align="center"> <a href="#top">⬆️ Back to Top</a> </p>
