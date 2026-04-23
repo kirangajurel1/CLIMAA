@@ -120,4 +120,4 @@ This project is licensed under the MIT License.
 
 Built with ❤️ by a developer learning React ecosystem.
 
-<p align="center"> <a href="#top">⬆️ Back to Top</a> </p> ```
+<p align="center"> <a href="#top">⬆️ Back to Top</a> </p> 
