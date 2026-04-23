@@ -73,11 +73,13 @@ cd CLIMAA
 npm install
 3. Run project
 npm run dev
+
 🔧 Environment Setup
 
 Create a .env file:
 
 VITE_API_KEY=your_api_key_here
+
 🤝 Contributing
 Fork the project
 
