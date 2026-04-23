@@ -22,7 +22,7 @@ function Sidebar() {
     return () => window.removeEventListener("resize", handleResize);
   }, []);
 
-  // Lock/unlock body scroll based on mobile sidebar state
+  // Lock/unlock body scroll based on mobile sidebar state   
   useEffect(() => {
       document.body.style.overflow = isMobileOpen ? "hidden" : "auto";
   }, [isMobileOpen]);
