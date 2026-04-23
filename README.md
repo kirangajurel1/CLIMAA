@@ -54,7 +54,7 @@ It allows users to check temperature, humidity, forecasts, and air quality condi
 
 ## 📁 Project Structure
 
-```text
+``text
 src/
 ├── assets/
 ├── components/
